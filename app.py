@@ -7,8 +7,11 @@ from itsdangerous import (TimedJSONWebSignatureSerializer as Serializer, Signatu
 from config import BaseConfig
 from models import *
 
+from flask_cors import CORS
+
 FORTNIGHTLY = 1296000
 app = Flask(__name__, static_folder="./frontend/build")
+CORS(app)
 
 try:
 	# Database connection

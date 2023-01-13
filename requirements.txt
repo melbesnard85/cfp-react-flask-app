@@ -1,0 +1,7 @@
+# Flask
+Flask==2.2.2
+Bcrypt
+flask_bcrypt
+itsdangerous==2.0.1
+flask-cors
+flask-mongoengine

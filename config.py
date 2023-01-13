@@ -5,9 +5,9 @@ class BaseConfig(object):
 	MONGODB_SETTINGS = {
 		# 'USERNAME': None,
 		# 'PASSWORD': None,
-		# 'HOST': None,
+		'HOST': '127.0.0.1',
 		'PORT': 27017,
-		'DB': 'database_name'
+		'DB': 'cfp'
 	}
 
 class ProductionConfig(object):

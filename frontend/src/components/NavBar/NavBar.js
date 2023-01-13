@@ -42,7 +42,7 @@ class NavBar extends React.Component {
 							<MenuIcon />
 						</IconButton>
 						<Typography variant="h6" className={classes.title}>
-							Photos
+							Citizen Feedback Platform
 						</Typography>
 						<div>
 							<Button
