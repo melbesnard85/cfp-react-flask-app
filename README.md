@@ -1,20 +1,32 @@
-# mongodb-react-flask-boilerplate
+# CFP backend (Flask, Mongoengine, JWT)
 
-## Instructions to start server
+## Backend Setup
 
-### `cd server`
-### `python app.py`
+### Create folder and activate it for packages
+```
+cd backend
+python -m venv venv
+venv\Scripts\activate
+```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Package install
+```
+pip install -r requirements.txt 
+```
 
-## Instructions to frontend
+## Backend Run
+```
+Flask run
+```
 
-### `cd frontend`
-### `npm start`
+## Frontend Setup and Run
 
-Open link http://localhost:5000 in your browser
-
-## Build front-end for production
-
-### `cd frontend`
-### `npm run build`
+```
+yarn
+yarn start
+```
+or 
+```
+npm install
+npm start
+```
