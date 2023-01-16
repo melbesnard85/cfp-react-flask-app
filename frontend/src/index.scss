@@ -13,12 +13,20 @@ body {
 		align-items: center;
 		-webkit-box-pack: center;
 		justify-content: center;
-		width: 70%;
+		width: 80%;
 		height: 200px;
-		padding: 10px 15px;
-		border: 2px dashed #555555;
+		border: 1px dashed #555555;
 		margin: auto;
+		margin-bottom: 10px;
 	}
+
+	.datatable-container{
+		width: 80%;
+		border: 1px solid #0000003b;
+		margin: auto;
+		padding: 0 0;
+	}
+	
 	.react-csv-input{
 		display: none;
 	}
