@@ -14,12 +14,17 @@ body {
 		-webkit-box-pack: center;
 		justify-content: center;
 		width: 70%;
-		height: 250px;
+		height: 200px;
 		padding: 10px 15px;
 		border: 2px dashed #555555;
 		margin: auto;
 	}
 	.react-csv-input{
 		display: none;
+	}
+	.invalid-csv{
+		text-align: center;
+		color: red;
+		padding: 10px;
 	}
 }
