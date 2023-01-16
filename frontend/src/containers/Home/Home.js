@@ -53,7 +53,6 @@ class Home extends React.Component {
 
 		return (
 			<>
-				<Typography variant="h5">CSV Reader</Typography>
 				<div
 					className="upload-container"
 					id="csv-content"
@@ -68,7 +67,7 @@ class Home extends React.Component {
 					onFileLoaded={handleForce}
 					parserOptions={papaparseOptions}
 				/>
-				<div style={{ display: this.state.is_valid_csv ? "block" : "none" }}>
+				<div className='datatable-container' style={{ display: this.state.is_valid_csv ? "block" : "none" }}>
 					<DataTable
 						title="Community feedback"
 						columns={this.state.columns}
